@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:isScrollContainer="true"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_16ssp"
+                android:padding="@dimen/_6sdp"
+                android:gravity="center"
+                android:textColor="#B31D1D"
+                android:textStyle="bold"
+                android:id="@+id/text"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/DP10"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/zambo_slider">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DP5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/DP10"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18ssp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/transactions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/balance"
+                        android:layout_marginStart="@dimen/DP10"
+                        android:autoLink="all"
+                        android:clickable="true"
+                        android:text="@string/view_transaction"
+                        android:layout_marginBottom="@dimen/_4sdp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp"
+                        android:focusable="true" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/transactions">
+
+                        <Button
+                            android:id="@+id/paymoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:background="@drawable/button_background"
+                            android:drawableStart="@drawable/ic_transfer"
+                            android:paddingStart="@dimen/DP2"
+                            android:text="@string/dmt"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_10ssp"
+                            card_view:ignore="RtlSymmetry" />
+
+                        <Button
+                            android:id="@+id/addmoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_background"
+                            android:drawableLeft="@drawable/ic_add"
+                            android:padding="@dimen/DP2"
+                            android:text="@string/add_money"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/DP15"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:id="@+id/wallet"
+                android:textColor="@color/white"
+                android:background="@drawable/wallettransfer_background"
+                android:text="@string/wallet_transfer_bank"
+                android:layout_height="40dp"
+                android:focusable="true">
+
+
+            </Button>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_8sdp"
+                        card_view:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1sp"
+                            android:gravity="center_horizontal"
+                            android:paddingRight="1sp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/zambo_technology"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:paddingLeft="1sp"
+                            android:paddingRight="1sp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/zambo_helpline"/>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/cardview_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DP8"
+                    android:background="@color/rl_back"
+                    card_view:cardBackgroundColor="@color/white"
+                    card_view:cardCornerRadius="@dimen/DP2"
+                    card_view:cardElevation="@dimen/_8sdp">
+
+                    <com.zambo.zambo_mterminal100.AppConfig.ExpandableHeightGridView
+                        android:id="@+id/billpayment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:horizontalSpacing="@dimen/_4sdp"
+                        android:isScrollContainer="false"
+                        android:numColumns="3"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="@dimen/_2sdp" />
+
+                    <!-- <GridView
+                         android:id="@+id/billpayment"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="@dimen/_5sdp"
+                         android:verticalSpacing="@dimen/_8sdp"
+                         android:horizontalSpacing="@dimen/_8sdp"
+                         android:scrollbars="none"
+                         android:numColumns="3"
+                         card_view:ignore="NestedScrolling">
+
+                     </GridView>-->
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.zambo.zambo_mterminal100.AppConfig.ExpandableHeightGridView
+                    android:id="@+id/gridview_bbps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:horizontalSpacing="@dimen/_8sdp"
+                    android:isScrollContainer="false"
+                    android:numColumns="6"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/_8sdp" />
+
+<!--                <GridView-->
+<!--                    android:id="@+id/gridview_bbps"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:horizontalSpacing="@dimen/DP8"-->
+<!--                    android:scrollbars="none"-->
+<!--                    android:numColumns="4"-->
+<!--                    android:verticalSpacing="@dimen/DP8">-->
+
+<!--                </GridView>-->
+
+            </LinearLayout>
+           </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

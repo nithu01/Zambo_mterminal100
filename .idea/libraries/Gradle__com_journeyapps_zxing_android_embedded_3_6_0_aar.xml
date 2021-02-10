@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.journeyapps:zxing-android-embedded:3.6.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/fd4b1da7c4d95a8880bc63137403d11c/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/fd4b1da7c4d95a8880bc63137403d11c/jetified-zxing-android-embedded-3.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/fd4b1da7c4d95a8880bc63137403d11c/jetified-zxing-android-embedded-3.6.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/92bcc95f132fa6f72d4582c31d83d1f5/jetified-zxing-android-embedded-3.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/92bcc95f132fa6f72d4582c31d83d1f5/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/92bcc95f132fa6f72d4582c31d83d1f5/jetified-zxing-android-embedded-3.6.0/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/e8e0035d6bcca523973e372adc3f1f11/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/e8e0035d6bcca523973e372adc3f1f11/jetified-zxing-android-embedded-3.6.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/e8e0035d6bcca523973e372adc3f1f11/jetified-zxing-android-embedded-3.6.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06c5892752fa3e01a14e7ac1bf3fc78/jetified-zxing-android-embedded-3.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06c5892752fa3e01a14e7ac1bf3fc78/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06c5892752fa3e01a14e7ac1bf3fc78/jetified-zxing-android-embedded-3.6.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/3.6.0/32f275c483fab0ce2b99b4c12b0c45cf0516a294/zxing-android-embedded-3.6.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/3.6.0/32f275c483fab0ce2b99b4c12b0c45cf0516a294/zxing-android-embedded-3.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

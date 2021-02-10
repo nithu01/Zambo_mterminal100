@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".Activity.Complain">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"/>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complain"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/service"
+        android:text="Select Service"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box_background"
+        android:layout_height="@dimen/DP50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/transaction_Id"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:hint="Transaction Id"
+        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/DP50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/amount"
+        android:background="@drawable/box_background"
+        android:inputType="phone"
+        android:gravity="center"
+        android:hint="Amount"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/DP50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/transaction_date"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:focusableInTouchMode="false"
+        android:editable="false"
+        android:hint="Transaction Date"
+        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/DP50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/remarks"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:hint="Remarks"
+        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/DP50"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/submit"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/box_background3"
+        android:textColor="#FFFFFF"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/DP15"
+        android:layout_height="@dimen/DP50"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

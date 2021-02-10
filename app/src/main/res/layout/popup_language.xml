@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/DP8"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Audio language"
+        android:padding="@dimen/DP8"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/english"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/bla_trans"
+        android:text="English"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bla_trans"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/DP10"
+        android:textSize="18dp"
+        android:id="@+id/hindi"
+        android:layout_marginBottom="@dimen/DP20"
+        android:text="Hindi"/>
+
+</LinearLayout>

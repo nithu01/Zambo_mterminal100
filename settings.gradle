@@ -1,0 +1,1 @@
+include ':app', ':views', ':poi-3.16-beta2', ':customsdk', ':customersdk-release', ':app-debug'

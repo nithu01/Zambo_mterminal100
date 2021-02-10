@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:customersdk-release:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/customersdk-release/build/.transforms/642fc4e096d8d555ae8b44b12f51edfc/jetified-customersdk-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/customersdk-release/build/.transforms/642fc4e096d8d555ae8b44b12f51edfc/jetified-customersdk-release/res" />
+      <root url="file://$PROJECT_DIR$/customersdk-release/build/.transforms/642fc4e096d8d555ae8b44b12f51edfc/jetified-customersdk-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

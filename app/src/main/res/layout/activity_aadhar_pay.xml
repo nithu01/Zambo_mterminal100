@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AadharPay">
+    <RelativeLayout
+        android:id="@+id/toolbar_aeps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgback_aeps"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:padding="@dimen/DP10"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/txt__aeps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgback_aeps"
+            android:text="@string/fingpayaeps2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:layout_toEndOf="@+id/imgback_aeps"
+            tools:ignore="RelativeOverlap" />
+
+
+        <ImageView
+            android:id="@+id/wallet_aeps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:src="@drawable/ic_purse"
+            android:textAllCaps="true"
+            android:padding="@dimen/DP8"
+            android:text=""/>
+
+    </RelativeLayout>
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/expandablelayout_aeps"
+        android:layout_below="@+id/toolbar_aeps"
+        android:background="#CCD1D3"
+        app:ael_duration="300"
+        android:layout_height="@dimen/_40sdp"
+        app:ael_expanded="false"
+        app:ael_interpolator="accelerateDecelerate"
+        app:ael_orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_balance_bbps"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="@dimen/_14ssp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:text=""/>
+
+        <ProgressBar
+            android:id="@+id/prog_money"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="35dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RtlHardcoded" />
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="75dp"
+        android:layout_below="@+id/expandablelayout_aeps"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                android:id="@+id/imageView"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:src="@drawable/aadhaar_pay" />
+</LinearLayout>
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/_50sdp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="1"-->
+            <!--                android:visibility="gone"-->
+            <!--                android:layout_margin="@dimen/_6sdp"-->
+            <!--                android:background="@drawable/box">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_weight="0.20"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:text="@string/balance_enquiry"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textStyle="normal"-->
+            <!--                    android:padding="@dimen/_8sdp"-->
+            <!--                    android:textSize="@dimen/_16ssp"/>-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_weight="0.80"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:padding="@dimen/_8sdp"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:src="@drawable/forward_arrow"/>-->
+
+            <!--            </LinearLayout>-->
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/_50sdp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:visibility="gone"-->
+            <!--                android:weightSum="1"-->
+            <!--                android:layout_margin="@dimen/_6sdp"-->
+            <!--                android:background="@drawable/box">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_weight="0.20"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:text="@string/cash_withdraw"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textStyle="normal"-->
+            <!--                    android:padding="@dimen/_8sdp"-->
+            <!--                    android:textSize="@dimen/_16ssp"/>-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_weight="0.80"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:padding="@dimen/_8sdp"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:src="@drawable/forward_arrow"/>-->
+
+            <!--            </LinearLayout>-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/DP10"
+                app:cardCornerRadius="@dimen/DP10"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/aadar"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="visible"
+                        android:id="@+id/layout"
+                        android:layout_marginTop="@dimen/DP5"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/CustomerNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Customer Mobile No."
+                            android:textSize="16sp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/black"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/bank"
+                            android:gravity="center"
+                            android:background="@drawable/box_background"
+                            android:hint="Select Bank"
+                            android:editable="false"
+                            android:textStyle="bold"
+                            android:focusable="false"
+                            android:paddingLeft="@dimen/DP5"
+                            android:layout_marginTop="@dimen/DP5"
+                            android:layout_marginBottom="5dp"
+                            android:layout_height="@dimen/DP40"/>
+
+
+<!--                        <EditText-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:inputType="phone"-->
+<!--                            android:id="@+id/aadhar_no"-->
+<!--                            android:maxLength="12"-->
+<!--                            android:hint="Aadhaar Number"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:background="@drawable/box_background"-->
+<!--                            android:layout_height="@dimen/DP50"/>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/box_background"
+                            android:layout_height="@dimen/DP40"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/aadhar_no"
+                                android:hint="Aadhaar Number"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:maxLength="12"
+                                android:textStyle="bold"
+                                android:inputType="phone"
+                                android:layout_width="match_parent"
+                                android:background="@color/transparent"
+                                android:layout_height="match_parent"/>
+
+                            <ImageView
+                                android:id="@+id/check"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:visibility="gone"
+                                android:layout_marginRight="5dp"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_margin="5dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:onClick="scanNow">
+
+                            <TextView
+                                android:id="@+id/txtscan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:layout_marginRight="5dp"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimary"
+                                android:text="Scan your Aadhaar"/>
+
+                            <ImageView
+                                android:id="@+id/scan"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/qr_scanner" />
+
+                        </LinearLayout>
+
+                        <!--                    <Button-->
+                        <!--                        android:layout_width="wrap_content"-->
+                        <!--                        android:id="@+id/device"-->
+                        <!--                        android:layout_height="wrap_content"/>-->
+
+
+
+                        <!--                        <Spinner-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:id="@+id/type"-->
+                        <!--                            android:background="@drawable/box_background"-->
+                        <!--                            android:layout_marginTop="@dimen/DP5"-->
+                        <!--                            android:layout_height="@dimen/DP50"/>-->
+
+
+                            <!--                        <TextView-->
+                            <!--                            android:layout_width="match_parent"-->
+                            <!--                            android:textSize="@dimen/DP15"-->
+                            <!--                            android:layout_marginTop="@dimen/DP5"-->
+                            <!--                            android:text="Enter Amount"-->
+                            <!--                            android:textColor="@color/colorPrimary"-->
+                            <!--                            android:layout_height="wrap_content"/>-->
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:inputType="phone"
+                                android:paddingLeft="@dimen/DP5"
+                                android:id="@+id/amount"
+                                android:gravity="center"
+                                android:hint="Enter Amount"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/DP5"
+                                android:background="@drawable/box_background"
+                                android:layout_height="@dimen/DP40">
+
+                            </EditText>
+
+                        <RadioGroup
+                            android:id="@+id/radioG"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/DP50"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <RadioButton
+                                android:id="@+id/mantra"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/DP2"
+                                android:text="Mantra"/>
+                            <RadioButton
+                                android:id="@+id/startek"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/DP2"
+                                android:text="Startek"/>
+
+                            <RadioButton
+                                android:id="@+id/morpho"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/DP2"
+                                android:text="Morpho"/>
+
+                            <RadioButton
+                                android:id="@+id/iris"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/DP2"
+                                android:text="Mantra Iris"/>
+                        </RadioGroup>
+
+<!--                        <Spinner-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:id="@+id/device"-->
+<!--                            android:text="Select Bank"-->
+<!--                            android:textAlignment="center"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:background="@drawable/box_background"-->
+<!--                            android:layout_marginTop="@dimen/DP5"-->
+<!--                            android:layout_height="@dimen/DP50"/>-->
+
+                        <View
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:background="@color/red"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="@color/red"
+                                android:text="@string/Aadhaar"
+                                android:textSize="@dimen/SP18"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:text=" - आम आदमी का अधिकार"
+                                android:textSize="@dimen/SP18"/>
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:id="@+id/capture"
+                            android:text="Capture"
+                            android:visibility="gone"
+                            android:textColor="@color/white"
+                            android:background="@color/colorPrimary"
+                            android:layout_marginTop="@dimen/DP10"
+                            android:layout_height="@dimen/DP50"/>
+
+                        <!--                                        <TextView-->
+                        <!--                                            android:layout_width="match_parent"-->
+                        <!--                                            android:layout_height="wrap_content"-->
+                        <!--                                            android:text="test Data"-->
+
+                        <!--                                            android:id="@+id/textview"/>-->
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/submit"
+        android:layout_gravity="bottom|center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/DP15"
+        android:layout_height="@dimen/DP50"/>
+
+</RelativeLayout>

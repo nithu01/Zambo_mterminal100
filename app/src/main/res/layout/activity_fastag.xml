@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ActivityFastag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="@dimen/DP50">
+
+        <ImageView
+            android:layout_width="@dimen/DP150"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_back_fasttag"
+            android:src="@drawable/fastag_logo"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/img_back_fasttag"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_12sdp"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:id="@+id/wallet_fasttag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/SP12"
+            android:src="@drawable/ic_purse"
+            android:textAllCaps="true"
+            android:padding="@dimen/DP8"
+            android:text=""/>
+
+    </RelativeLayout>
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/expandablelayout"
+        android:background="#CCD1D3"
+        app:ael_duration="300"
+        android:layout_height="@dimen/_40sdp"
+        app:ael_expanded="false"
+        app:ael_interpolator="accelerateDecelerate"
+        app:ael_orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_balance_fasttag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DP35"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/DP8"
+            android:text=""/>
+
+        <ProgressBar
+            android:id="@+id/progressbar_fasttag"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/DP15"
+            android:layout_centerVertical="true"/>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fastag_ratail"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_8sdp"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_mob_fastag"
+            android:layout_width="wrap_content"
+            android:text="@string/enter_mob"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:padding="@dimen/DP8"
+            android:textSize="@dimen/SP16"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/txt_mob_fastag"
+            android:hint="@string/mobile_no"
+            android:layout_margin="@dimen/DP8"
+            android:id="@+id/input_user_mobile"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edittext_user_mobile_fastag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint=""
+                android:imeOptions="actionSend|actionGo|actionDone"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fastag_list"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <ViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/DP150"
+            android:id="@+id/flip_fastag"
+            android:layout_marginBottom="@dimen/DP8"
+            android:autoStart="true">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/fastag_one"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/fastag_two"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/fastag_three"
+                tools:ignore="ContentDescription" />
+
+        </ViewFlipper>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerview_bene_fastag"
+            android:layout_below="@+id/flip_fastag"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/DP6"
+            android:visibility="gone"
+            android:layout_above="@+id/floating_add_new_beneficiary"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_add_new_beneficiary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:backgroundTint="@color/blue"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            android:layout_margin="@dimen/DP20"
+            android:src="@drawable/add_contact"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_no_beneficiary_fastag"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_no_beneficiary_fastag"
+            android:layout_width="@dimen/DP100"
+            android:layout_height="@dimen/DP100"
+            android:src="@drawable/add_contact"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_no_beneficiary_fastag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_no_beneficiary_fastag"
+            android:layout_centerHorizontal="true"
+            android:text="@string/no_beneficiary"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="@dimen/SP16"/>
+
+        <Button
+            android:id="@+id/btn_add_benef_fastag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DP15"
+            android:layout_below="@+id/txt_no_beneficiary_fastag"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="@string/add_benef"
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP18"
+            android:background="@color/red"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_fastag"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/DP100"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10sdp"
+                android:visibility="visible"
+                android:src="@drawable/kyc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_address"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_address_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_address"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text|textMultiLine"
+                    android:imeOptions="actionNext"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:lines="2"
+                    android:maxLines="3"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_city"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_city_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_city"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_district"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_district_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_district"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_state"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_state_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_state"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_pincode"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_pincode_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_pincode"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:digits="0123456789"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionDone"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_continue_fastag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_default"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/DP15"
+                android:layout_marginRight="@dimen/DP50"
+                android:layout_marginLeft="@dimen/DP50"
+                android:paddingRight="@dimen/DP20"
+                android:paddingLeft="@dimen/DP20"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/continu"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:src="@drawable/logo"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_alignParentBottom="true"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/layout_fastag_beneficiary"/>
+
+</LinearLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.KnowMore">
+
+    <ScrollView
+        android:id="@+id/scrollview_fastag"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/DP100"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10sdp"
+                android:visibility="visible"
+                android:src="@drawable/kyc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_address"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_address_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_address"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text|textMultiLine"
+                    android:imeOptions="actionNext"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:lines="2"
+                    android:maxLines="3"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_city"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_city_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_city"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_district"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_district_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_district"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_state"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_state_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_state"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionNext"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/enter_pincode"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:padding="@dimen/DP8"
+                android:textSize="@dimen/SP16"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DP8"
+                android:layout_marginRight="@dimen/DP8"
+                android:background="@drawable/box">
+
+                <EditText
+                    android:id="@+id/edittext_pincode_fastag"
+                    android:layout_width="match_parent"
+                    android:hint="@string/enter_pincode"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:digits="0123456789"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/DP8"
+                    android:paddingRight="@dimen/DP8"
+                    android:imeOptions="actionDone"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/DP40"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_continue_fastag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_default"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/DP15"
+                android:layout_marginRight="@dimen/DP50"
+                android:layout_marginLeft="@dimen/DP50"
+                android:paddingRight="@dimen/DP20"
+                android:paddingLeft="@dimen/DP20"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/continu"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:src="@drawable/logo"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_alignParentBottom="true"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/verfyOtp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/DP100"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/_10sdp"
+            android:visibility="visible"
+            android:src="@drawable/kyc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Enter OTP"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:padding="@dimen/DP8"
+            android:textSize="@dimen/SP16"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DP8"
+            android:layout_marginRight="@dimen/DP8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/otpverify"
+                android:layout_width="match_parent"
+                android:hint="Enter OTP"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:digits="0123456789"
+                android:background="@null"
+                android:paddingLeft="@dimen/DP8"
+                android:paddingRight="@dimen/DP8"
+                android:imeOptions="actionDone"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/DP40"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/DP15"
+            android:layout_marginRight="@dimen/DP50"
+            android:layout_marginLeft="@dimen/DP50"
+            android:paddingRight="@dimen/DP20"
+            android:paddingLeft="@dimen/DP20"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

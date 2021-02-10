@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="oval"
+            android:padding="@dimen/_20sdp">
+            <corners
+              android:radius="@dimen/_180sdp"/>
+            <gradient
+                android:endColor="#138808"
+                android:centerColor="#FFFFFF"
+                android:startColor="#FF9933"/>
+            <padding android:bottom="@dimen/_10sdp"
+                android:top="@dimen/_10sdp"
+                android:right="@dimen/_10sdp"
+                android:left="@dimen/_10sdp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/national_emblem"
+        android:height="@dimen/_40sdp"
+        android:width="@dimen/_40sdp"/>
+</layer-list>

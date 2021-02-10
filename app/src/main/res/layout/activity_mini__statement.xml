@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Mini_Statement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.15"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Mini Statement"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/logo"
+            android:layout_weight="0.70"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_weight="0.15"
+            android:src="@drawable/ic_menu_white"/>
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/kotakBlue1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mini Statement"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_marginTop="@dimen/DP10"
+        app:cardCornerRadius="@dimen/DP10"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible"
+
+
+                android:layout_marginTop="@dimen/DP5"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/mini_mobile_no"
+                    android:background="@drawable/box_background"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:hint=" Mobile Number"
+                    android:paddingLeft="@dimen/DP5"
+                    android:layout_marginTop="@dimen/DP5"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="@dimen/DP40"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/bank"
+                    android:background="@drawable/box_background"
+                    android:hint="Select Bank"
+                    android:textStyle="bold"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/DP5"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="@dimen/DP40"/>
+
+
+<!--                <EditText-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:inputType="phone"-->
+<!--                    android:id="@+id/aadhar_no"-->
+<!--                    android:maxLength="12"-->
+<!--                    android:hint="Aadhaar Number"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:background="@drawable/box_background"-->
+<!--                    android:layout_height="@dimen/DP50"/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/box_background"
+                    android:layout_height="@dimen/DP40"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/aadhar_no"
+                        android:hint="Aadhaar Number"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:maxLength="12"
+                        android:textStyle="bold"
+                        android:inputType="phone"
+                        android:layout_width="match_parent"
+                        android:background="@color/transparent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:id="@+id/check"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:layout_marginRight="5dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:onClick="scanNow">
+
+                    <TextView
+                        android:id="@+id/txtscan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Scan your Aadhaar"/>
+
+                    <ImageView
+                        android:id="@+id/scan"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/qr_scanner" />
+
+                </LinearLayout>
+
+
+                <RadioGroup
+                    android:id="@+id/radioG"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DP50"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <RadioButton
+                        android:id="@+id/mantra"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/DP2"
+                        android:text="Mantra"/>
+                    <RadioButton
+                        android:id="@+id/startek"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/DP2"
+                        android:text="Startek"/>
+
+                    <RadioButton
+                        android:id="@+id/morpho"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/DP2"
+                        android:text="Morpho"/>
+                    <RadioButton
+                        android:id="@+id/iris"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/DP2"
+                        android:text="Mantra Iris"/>
+                </RadioGroup>
+
+<!--                <Spinner-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:id="@+id/device"-->
+<!--                    android:text="Select Bank"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:background="@drawable/box_background"-->
+<!--                    android:layout_height="@dimen/DP50"/>-->
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/submit"
+                    android:layout_gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:text="Submit"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/DP15"
+                    android:layout_height="@dimen/DP50"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/mini"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/Layoutmini"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@color/kotakBlue1">
+
+            <TextView
+                android:id="@+id/miniState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mini Statement"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#1c252c" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#1c252c" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BC Id"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#1c252c" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BC Location"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#1c252c" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/aadhaar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aadhaar"
+                    android:layout_weight="1"
+                    android:textColor="#1c252c"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/bankAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bank"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#1c252c" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date/Remarks"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#1c252c"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:paddingRight="10dp"
+            android:textColor="#1c252c"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerMini"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#1c252c"
+                android:text="Available Balance"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#1c252c"
+                android:layout_marginTop="10dp"
+                android:text="Email: helpdesk@zambo.in, Website: www.zambo.in\nHelpline: 8800880368 "/>
+
+        </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/pdf"
+            android:layout_gravity="bottom|center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:text="Close"
+            android:textSize="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/DP15"
+            android:layout_height="@dimen/DP50"/>
+
+    </RelativeLayout>
+</LinearLayout>

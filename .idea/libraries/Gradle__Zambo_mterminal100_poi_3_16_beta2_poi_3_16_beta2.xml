@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Zambo_mterminal100.poi-3.16-beta2.poi-3.16-beta2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/poi-3.16-beta2/poi-3.16-beta2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

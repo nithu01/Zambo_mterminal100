@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.FingPayAepsActivity">
+    <RelativeLayout
+        android:id="@+id/toolbar_add_money"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgback_add_money"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:padding="@dimen/DP10"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/txt_home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgback_add_money"
+            android:text="@string/fingpayaeps"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:layout_toEndOf="@+id/imgback_add_money"
+            tools:ignore="RelativeOverlap" />
+
+
+        <ImageView
+            android:id="@+id/wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:src="@drawable/ic_purse"
+            android:textAllCaps="true"
+
+            android:padding="@dimen/DP8"
+            android:text=""/>
+
+
+    </RelativeLayout>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/expandablelayout"
+        android:layout_below="@+id/toolbar_bbps"
+        android:background="#CCD1D3"
+        app:ael_duration="400"
+        android:layout_height="wrap_content"
+        app:ael_expanded="false"
+        app:ael_interpolator="accelerateDecelerate"
+        app:ael_orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_balance_bbps"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DP35"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/DP8"
+            android:text=""/>
+
+        <ProgressBar
+            android:id="@+id/prog_money"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="35dp"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="35dp"
+            android:layout_alignParentEnd="true" />
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/amount"
+        android:hint="Enter Amount"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter your remarks"
+        android:id="@+id/remark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/DP20"
+        android:id="@+id/Continue"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.CymChad:BaseRecyclerViewAdapterHelper:2.8.5@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/dd28495c0b371957bc8557b5ab698e87/jetified-BaseRecyclerViewAdapterHelper-2.8.5/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/7052323da7e3df3f1df71dcc95e11982/jetified-BaseRecyclerViewAdapterHelper-2.8.5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/240495ceb144419cd4fb7d48222ac5ae/jetified-BaseRecyclerViewAdapterHelper-2.8.5/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/dd28495c0b371957bc8557b5ab698e87/jetified-BaseRecyclerViewAdapterHelper-2.8.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/dd28495c0b371957bc8557b5ab698e87/jetified-BaseRecyclerViewAdapterHelper-2.8.5/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/dd28495c0b371957bc8557b5ab698e87/jetified-BaseRecyclerViewAdapterHelper-2.8.5/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/7052323da7e3df3f1df71dcc95e11982/jetified-BaseRecyclerViewAdapterHelper-2.8.5/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/7052323da7e3df3f1df71dcc95e11982/jetified-BaseRecyclerViewAdapterHelper-2.8.5/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/7052323da7e3df3f1df71dcc95e11982/jetified-BaseRecyclerViewAdapterHelper-2.8.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/240495ceb144419cd4fb7d48222ac5ae/jetified-BaseRecyclerViewAdapterHelper-2.8.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/240495ceb144419cd4fb7d48222ac5ae/jetified-BaseRecyclerViewAdapterHelper-2.8.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/240495ceb144419cd4fb7d48222ac5ae/jetified-BaseRecyclerViewAdapterHelper-2.8.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.8.5/d23f2badc7644636a9e7de7b4a45756a310c771e/BaseRecyclerViewAdapterHelper-2.8.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.8.5/d23f2badc7644636a9e7de7b4a45756a310c771e/BaseRecyclerViewAdapterHelper-2.8.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.8.5/97421845a9b712975494b4482619e2ae462600ce/BaseRecyclerViewAdapterHelper-2.8.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.8.5/97421845a9b712975494b4482619e2ae462600ce/BaseRecyclerViewAdapterHelper-2.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

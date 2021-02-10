@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/youcube.aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/bd83874aa65ace643ec57964927d5228/jetified-youcube/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/bd83874aa65ace643ec57964927d5228/jetified-youcube/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/bd83874aa65ace643ec57964927d5228/jetified-youcube/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/d2f29b9cf8f896c61bc8f5205f62e8ba/jetified-youcube/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/d2f29b9cf8f896c61bc8f5205f62e8ba/jetified-youcube/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/d2f29b9cf8f896c61bc8f5205f62e8ba/jetified-youcube/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/1c2dd115ef0ed831bf020b6449549e92/jetified-youcube/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/1c2dd115ef0ed831bf020b6449549e92/jetified-youcube/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/1c2dd115ef0ed831bf020b6449549e92/jetified-youcube/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1a873af68c91da4b932946ed19031d6/jetified-youcube/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1a873af68c91da4b932946ed19031d6/jetified-youcube/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1a873af68c91da4b932946ed19031d6/jetified-youcube/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

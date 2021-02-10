@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kam520c:KeyBoardView:1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/daadc4b49e8fd9d7962ff149e89aa551/jetified-KeyBoardView-1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/daadc4b49e8fd9d7962ff149e89aa551/jetified-KeyBoardView-1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/daadc4b49e8fd9d7962ff149e89aa551/jetified-KeyBoardView-1.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/b2d5255bffd64d5ffc2d3478f2eccb8c/jetified-KeyBoardView-1.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/b2d5255bffd64d5ffc2d3478f2eccb8c/jetified-KeyBoardView-1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/b2d5255bffd64d5ffc2d3478f2eccb8c/jetified-KeyBoardView-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a385d0d2b770a06536a2086b2eb7f60b/jetified-KeyBoardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a385d0d2b770a06536a2086b2eb7f60b/jetified-KeyBoardView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a385d0d2b770a06536a2086b2eb7f60b/jetified-KeyBoardView-1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.kam520c/KeyBoardView/1.0/3d53de9a7e88fcea8900086019ff1344db5b7d10/KeyBoardView-1.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kam520c/KeyBoardView/1.0/3d53de9a7e88fcea8900086019ff1344db5b7d10/KeyBoardView-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.kam520c/KeyBoardView/1.0/cdc5cc50669b1344500c7046060c07e5c711ea3e/KeyBoardView-1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kam520c/KeyBoardView/1.0/cdc5cc50669b1344500c7046060c07e5c711ea3e/KeyBoardView-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

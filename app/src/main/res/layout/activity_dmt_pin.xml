@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kotakBlue1"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.DmtPin">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/logo"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Enter Transaction Pin "/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+            <com.mukesh.OtpView
+                android:id="@+id/pindmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:itemBackground="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                app:itemCount="6"
+                app:lineColor="@color/colorPrimary"
+                app:viewType="line"
+                />
+        </LinearLayout>
+
+        <!--    <EditText-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:inputType="phone"-->
+        <!--        android:id="@+id/pin"-->
+        <!--        android:maxLength="6"-->
+        <!--        android:hint="Enter PIN"-->
+        <!--        android:gravity="center"-->
+        <!--        android:layout_marginBottom="20dp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        android:background="@drawable/box_background"-->
+        <!--        android:layout_height="@dimen/DP50"/>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/submit"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/box_background4"
+                android:textColor="#FFFFFF"
+                android:text="Submit"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="@dimen/DP5"
+                android:layout_height="@dimen/DP40"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/change"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_marginRight="30dp"-->
+<!--            android:background="@drawable/box_background4"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:textStyle="italic"-->
+<!--            android:text="Change Pin"/>-->
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/login_screen_banner"
+        android:layout_alignParentBottom="true"
+        android:layout_height="200dp"/>
+
+</RelativeLayout>

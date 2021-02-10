@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A709A</color>
+  <!--  <color name="colorPrimaryDark">#00b2ff</color>-->
+
+    <color name="profilebackground">#D7D7D7</color>
+    <color name="colorPrimaryDark">#15516F</color>
+    <color name="colorAccent">#f54600</color>
+    <color name="viewcolor">#00065c</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="bla_trans">#C0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_gray">#696969</color>
+    <color name="red">#e1011b</color>
+    <color name="card_color">#43f7ceb8</color>
+    <color name="rl_back">#c9caca</color>
+    <color name="green">#fb641b</color>
+    <color name="blue">#204ab4</color>
+    <color name="blue_zambo">#204ab4</color>
+    <color name="button_color">#00065c</color>
+    <color name="grey">#616161</color>
+    <color name="grey_line">#C6C5C2</color>
+    <color name="light_grey">#595959</color>
+    <color name="gray">#808080</color>
+    <color name="gray_light">#DCDCDC</color>
+
+    <color name="app_bg">#EDEDED</color>
+
+    <color name="btn_pressed">#AC484B</color>
+    <color name="green_text">#50AB33</color>
+    <color name="header_color">#DC0015</color>
+    <color name="smoky_white">#F7F7F7</color>
+    <color name="textview_heading">#000</color>
+
+</resources>

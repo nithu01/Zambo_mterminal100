@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Zambo_mterminal100.iml" filepath="$PROJECT_DIR$/.idea/modules/Zambo_mterminal100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Zambo_mterminal100.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Zambo_mterminal100.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-debug/Zambo_mterminal100.app-debug.iml" filepath="$PROJECT_DIR$/.idea/modules/app-debug/Zambo_mterminal100.app-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customersdk-release/Zambo_mterminal100.customersdk-release.iml" filepath="$PROJECT_DIR$/.idea/modules/customersdk-release/Zambo_mterminal100.customersdk-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customsdk/Zambo_mterminal100.customsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/customsdk/Zambo_mterminal100.customsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poi-3.16-beta2/Zambo_mterminal100.poi-3.16-beta2.iml" filepath="$PROJECT_DIR$/.idea/modules/poi-3.16-beta2/Zambo_mterminal100.poi-3.16-beta2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/views/Zambo_mterminal100.views.iml" filepath="$PROJECT_DIR$/.idea/modules/views/Zambo_mterminal100.views.iml" />
+    </modules>
+  </component>
+</project>

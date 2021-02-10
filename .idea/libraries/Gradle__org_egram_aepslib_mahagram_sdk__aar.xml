@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: org.egram.aepslib:mahagram-sdk:@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/9eb0d60e0819c4d0b4663aba0fa2d39e/jetified-mahagram-sdk/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/9eb0d60e0819c4d0b4663aba0fa2d39e/jetified-mahagram-sdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/9eb0d60e0819c4d0b4663aba0fa2d39e/jetified-mahagram-sdk/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/f9ce0381edeab0624d1f9217f6417dc0/jetified-mahagram-sdk/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/f9ce0381edeab0624d1f9217f6417dc0/jetified-mahagram-sdk/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/f9ce0381edeab0624d1f9217f6417dc0/jetified-mahagram-sdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/75c6fd2750db39b41fec9d599c204ca1/jetified-mahagram-sdk/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/75c6fd2750db39b41fec9d599c204ca1/jetified-mahagram-sdk/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/75c6fd2750db39b41fec9d599c204ca1/jetified-mahagram-sdk/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83b7607962da71f30d96d7ec4bf2eb96/jetified-mahagram-sdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83b7607962da71f30d96d7ec4bf2eb96/jetified-mahagram-sdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83b7607962da71f30d96d7ec4bf2eb96/jetified-mahagram-sdk/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

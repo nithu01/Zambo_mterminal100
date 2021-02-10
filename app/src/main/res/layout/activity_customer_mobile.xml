@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.CustomerMobile">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary1"
+        android:text="Enter Customer Mobile Number"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:layout_width="210dp"
+        android:id="@+id/customer_mobile_no"
+        android:background="@drawable/box_background"
+        android:textSize="16sp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:paddingLeft="@dimen/DP5"
+        android:layout_marginTop="@dimen/DP5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="@dimen/DP50"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/proceed"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:text="Proceed"
+        android:layout_marginTop="@dimen/DP15"
+        android:layout_height="@dimen/DP50"/>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.aakira:expandable-layout:1.4.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/6736862cfb08387c798f16735129bc42/jetified-expandable-layout-1.4.2/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/973d06c0339dbda8794949f86045b6ff/jetified-expandable-layout-1.4.2/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/5db642889aa80f3243689eeaa9890261/jetified-expandable-layout-1.4.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ead2bbee700009cb8e5c8e73b98e628/jetified-expandable-layout-1.4.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/6736862cfb08387c798f16735129bc42/jetified-expandable-layout-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/6736862cfb08387c798f16735129bc42/jetified-expandable-layout-1.4.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/6736862cfb08387c798f16735129bc42/jetified-expandable-layout-1.4.2/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/973d06c0339dbda8794949f86045b6ff/jetified-expandable-layout-1.4.2/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/973d06c0339dbda8794949f86045b6ff/jetified-expandable-layout-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/973d06c0339dbda8794949f86045b6ff/jetified-expandable-layout-1.4.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/5db642889aa80f3243689eeaa9890261/jetified-expandable-layout-1.4.2/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/5db642889aa80f3243689eeaa9890261/jetified-expandable-layout-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/5db642889aa80f3243689eeaa9890261/jetified-expandable-layout-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ead2bbee700009cb8e5c8e73b98e628/jetified-expandable-layout-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ead2bbee700009cb8e5c8e73b98e628/jetified-expandable-layout-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ead2bbee700009cb8e5c8e73b98e628/jetified-expandable-layout-1.4.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.aakira/expandable-layout/1.4.2/8105fe6d34a913bb500ec73403bf5e1f29bdbab3/expandable-layout-1.4.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.aakira/expandable-layout/1.4.2/8105fe6d34a913bb500ec73403bf5e1f29bdbab3/expandable-layout-1.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.github.aakira/expandable-layout/1.4.2/4588a646960b82e38c0ab609a2b223050769e91a/expandable-layout-1.4.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.aakira/expandable-layout/1.4.2/4588a646960b82e38c0ab609a2b223050769e91a/expandable-layout-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

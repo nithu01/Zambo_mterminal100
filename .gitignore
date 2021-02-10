@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/customersdk-release/build/
+/poi-3.16-beta2/build/

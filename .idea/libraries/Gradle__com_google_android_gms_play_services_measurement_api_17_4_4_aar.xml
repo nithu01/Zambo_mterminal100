@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-api:17.4.4@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/09b7d5810bf1184a3c9a883855ded8d6/jetified-play-services-measurement-api-17.4.4/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/503685dcaf17b809d4ab2bd719fbbc7e/jetified-play-services-measurement-api-17.4.4/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle-4.10.1/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/635c568f339fbcf44a8c1df58d2a26f4/jetified-play-services-measurement-api-17.4.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../gradle-4.10.1/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/17.4.4/371754360c8013243c3a77d8f4344d5522f3c1fa/play-services-measurement-api-17.4.4-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/17.4.4/371754360c8013243c3a77d8f4344d5522f3c1fa/play-services-measurement-api-17.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

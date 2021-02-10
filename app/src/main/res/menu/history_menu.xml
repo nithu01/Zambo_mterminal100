@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download_miniStatement"
+        android:icon="@drawable/ic_folder"
+        android:title="Download WalletStatement PDF"
+        app:showAsAction="ifRoom"/>
+
+      <item
+        android:id="@+id/share_miniStatement"
+        android:icon="@drawable/ic_share"
+        android:title="Share WalletStatement PDF"
+          app:showAsAction="ifRoom"/>
+
+<!--    <item android:id="@+id/history"-->
+<!--        android:icon="@drawable/history"-->
+<!--        android:title="@string/tran_history"/>-->
+
+  <!--  <item android:id="@+id/more"
+        android:icon="@drawable/more"
+        android:title="@string/more"/>-->
+
+</menu>

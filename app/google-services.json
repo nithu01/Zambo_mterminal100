@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "493370162300",
+    "firebase_url": "https://zambo-e4aa6.firebaseio.com",
+    "project_id": "zambo-e4aa6",
+    "storage_bucket": "zambo-e4aa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493370162300:android:b334b99f8ec4db40",
+        "android_client_info": {
+          "package_name": "com.zambo.zambo_mterminal100"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493370162300-sef3v48viteurio3r3uhs5rffk7c7v7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiAkW3jmXwYWxGGnemlOx4ksJGgLB_e4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493370162300-sef3v48viteurio3r3uhs5rffk7c7v7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

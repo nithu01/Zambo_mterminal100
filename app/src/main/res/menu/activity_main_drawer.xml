@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+      <item
+          android:icon="@drawable/home"
+          android:title="@string/home" />
+
+      <item
+          android:id="@+id/change_pin"
+          android:icon="@drawable/ic_password"
+          android:title="Change Pin" />
+
+      <item
+          android:id="@+id/forgot_password"
+          android:icon="@drawable/ic_forgot"
+          android:title="Change Password" />
+
+      <item
+          android:id="@+id/Complaint"
+          android:icon="@drawable/ic_complaint"
+          android:title="Complain" />
+
+      <item
+          android:id="@+id/ComplaintStatus"
+          android:icon="@drawable/ic_status"
+          android:title="Complain Status" />
+
+      <item
+          android:id="@+id/fund_request"
+          android:icon="@drawable/ic_rupee"
+          android:title="Fund Request" />
+
+<!--      <item-->
+<!--          android:id="@+id/fund_request_status"-->
+<!--          android:icon="@drawable/ic_clipboard"-->
+<!--          android:title="Fund Request Status" />-->
+
+        <!-- <item
+             android:id="@+id/nav_history"
+             android:icon="@drawable/history"
+             android:title="@string/trans_history" />
+
+         <item
+             android:id="@+id/nav_add_money"
+             android:icon="@drawable/profile"
+             android:title="@string/add_money" />
+
+         <item
+             android:id="@+id/nav_myprofile"
+             android:icon="@drawable/profile"
+             android:title="@string/my_profile" />
+         <item
+             android:id="@+id/nav_manage"
+             android:icon="@drawable/facebook"
+             android:title="Like us on facebook" />
+         <item
+
+             android:icon="@drawable/twitter"
+             android:title="Like us on Twitter" />
+         <item
+
+             android:icon="@drawable/google"
+             android:title="Follow us on Google" />-->
+
+        <item android:id="@+id/nav_refund"
+            android:icon="@drawable/refundicon"
+            android:title="@string/refund"/>
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="@string/support_desk" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/policy"
+            android:title="@string/pr_pol" />
+
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/ic_extensible_markup_language"
+            android:title="@string/language" />
+
+        <!--<item-->
+            <!--android:id="@+id/reddem_gift"-->
+            <!--android:icon="@drawable/ic_discount"-->
+            <!--android:title="@string/redeem_points" />-->
+
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notification" />
+
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/ic_like"
+            android:title="@string/rateus" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+    </group>
+
+</menu>

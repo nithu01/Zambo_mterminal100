@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview_u"
+    card_view:cardCornerRadius="@dimen/DP5"
+    card_view:cardElevation="@dimen/DP5"
+    card_view:contentPadding="@dimen/DP5"
+    android:padding="@dimen/DP5"
+    card_view:cardBackgroundColor="@color/white"
+    android:layout_margin="@dimen/DP6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="@dimen/DP5"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.40"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_name_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/SP16"
+                android:text="@string/name"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/txt_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/SP14"
+                android:text="@string/mob_num"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/text_gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="0.60">
+
+            <Button
+                android:id="@+id/btn_recharge"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/DP40"
+                android:layout_margin="@dimen/DP4"
+                android:layout_gravity="center_vertical|end"
+                android:background="@color/green"
+                android:text="@string/recharge"
+                android:visibility="visible"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="@dimen/SP16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

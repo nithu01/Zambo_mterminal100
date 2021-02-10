@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zambo.zambo_mterminal100">
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:name="com.zambo.zambo_mterminal100.AppConfig.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,UnusedAttribute"
+        tools:replace="android:icon,android:allowBackup">
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.CaptureActivityPortrait"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            tools:ignore="MissingClass"/>
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Offer_Plans"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Micro_Atm_Receipt_P"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Micro_Atm_Receipt"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.StateListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.FundStatus"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.TransactionReceiptFailed"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Fund_Request"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.ComplaintStatus"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Forget_Password"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Complain"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.DmtPin"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.PinLogin"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.pingenerate"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.KnowMore"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.PM_Cares_Success"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.PMCaresFund"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Mini_Statement"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AadharPay"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AadhaarPayMobile"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.TransactionReceipt"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.CustomerMobile"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.BankingSelect"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.zambo.zambo_mterminal100.Activity.DeviceActivity" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.BankListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AepsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.MoneyTransfer"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.ActivityFastag"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.zambo.zambo_mterminal100.Activity.FasttagActivity" />
+        <activity android:name="com.zambo.zambo_mterminal100.Activity.Payphi" />
+        <activity android:name="com.zambo.zambo_mterminal100.Activity.ScratchCodeActivity" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AgentRechargeTwo"
+            android:label="@string/title_activity_agent_recharge_two"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.WebActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" /> <!-- // <uses-library android:name="org.apache.http.legacy" android:required="false"/> -->
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.BbpsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Dmt_Transfer"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AgentRechargeThree"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.CustomerHomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.SplashActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.FingerPrintLogin"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.LoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.HomeActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" /> <!-- <meta-data -->
+        <!-- android:name="io.fabric.ApiKey" -->
+        <!-- android:value="6d22372e3005bc4bc10b8ee4ff36fe1f498f6d79" /> -->
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.ProfileActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.HistoryActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AspsTransfer"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.Transfer"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+        <activity
+            android:name="com.zambo.zambo_mterminal100.Activity.AddMoney"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.WithHead" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_6L0vKk8IRnwkG3" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_app_logo_round" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.zambo.zambo_mterminal100.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name="com.zambo.zambo_mterminal100.Service.FirebaseInstanceIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e4bac8f38023ba632bd1d6e2eee4c21cdf5a958f" />
+    </application>
+
+</manifest>
